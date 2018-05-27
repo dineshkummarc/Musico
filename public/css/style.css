@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Amatic;
+    src: url('../fonts/Amatic_SC/AmaticSC-Regular.ttf');
+}
+@font-face {
+    font-family: Josef;
+    src: url('../fonts/Josefin_Sans/JosefinSans-Bold.ttf');
+}
+
+body {
+  font-family: Josef;
+  background-color: #D8C3A5;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #EAE7BC;
+
+}
+
+.navbar a {
+  color: #E85A4F;
+}
+
+.jumbotron {
+  background-color: #EAE7BC;
+  color: #E85A4F;
+  height: 595px;
+}
+
+.jumbotron h1 {
+  font-family: Amatic;
+  font-size: 100px;
+}
+
+.jumbotron p {
+  font-family: Josef;
+}
+
+.music-list {
+
+}
+
+.music-item {
+  background-color: #EAE7BC;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px #E85A4F;
+}
+
+.music-player {
+  border: 1px solid grey;
+  padding: 5px;
+  box-shadow: 0 0 6px 2px #c7a8a8;
+  color: #003ba9;
+  font-family: verdana;
+
+}
+
+.song-slider {
+  width: 100%;
+}
+
+.song-volume p{
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.song-volume input{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.controllers {
+  clear: both;
+}
+
+.current-time {
+  float: left;
+  font-size: 10px;
+}
+
+.duration {
+  float: right;
+  font-size: 10px;
+}
+
+.about-item {
+  padding: 10px;
+}
+.about-item div {
+  background-color: #E85A4F;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+}
+.py4{
+  padding: 20px 0px;
+}
